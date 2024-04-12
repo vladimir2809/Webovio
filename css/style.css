@@ -171,3 +171,87 @@ main #haveSome div:last-of-type{
     line-height: 26px;
     margin-left: 153px;
 }
+
+main #mainContent{
+    margin-top: 110px;
+}
+main .divCont{
+    display: flex;
+}
+main .contImage{
+    width: 775px;
+    height: 550px;
+}
+main .contText{
+    width: 475px;
+    height: 397px;
+    margin-left: 56px;
+    margin-top: 80px;
+}
+main .divCont .divH2{
+    width: 475px;
+    height: 104px;
+}
+main .divCont .divP{
+    width: 421px;
+    height: 156px;
+ 
+}
+main .divCont .divP p{
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-right: 50px;
+    color:#21384299;
+
+}
+main .divCont .divP p:last-child{
+    margin-top: 90px; 
+}
+main #mainContent h2{
+    font-family: Poppins;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+
+main .divReview{
+    display: block;
+    position: relative;
+    width: 453px;
+    height: 243px;
+    top: -178px;
+    left: 322px;
+    font-family: Poppins;
+    background-color: white;
+    box-shadow: 14px 14px 70px 1px gray;
+}
+.ReviewText{
+    /*position: static;*/
+    width: 390px;
+    height: 111px; 
+    padding-top: 30px;
+    margin-left: 30px;
+  
+}
+main .divReviewLogin{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+main .divReviewLogin img{
+    width: 46px;
+    height: 46px;
+}
+main .divReviewLogin h4{
+    margin: 0px;
+    margin-left: 15px;
+   /* margin-top: 20px;*/
+}
+main .divReviewLogin p{
+    margin: 0px;
+    margin-left: 15px;
+}
+
