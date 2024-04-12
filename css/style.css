@@ -148,6 +148,10 @@ nav{
 #divServ2 #divLogin p:last-child{
     font-size: 16px; 
 }
+main {
+    width: 1440px;
+    height: 2353px;
+}
 main #haveSome{
     display: flex;
     width: 1006px;
@@ -177,6 +181,9 @@ main #mainContent{
 }
 main .divCont{
     display: flex;
+}
+main .reverseX{
+    flex-direction: row-reverse;
 }
 main .contImage{
     width: 775px;
@@ -222,11 +229,21 @@ main .divReview{
     position: relative;
     width: 453px;
     height: 243px;
-    top: -178px;
-    left: 322px;
+    /*top: -178px;
+    left: 322px;*/
     font-family: Poppins;
     background-color: white;
     box-shadow: 14px 14px 70px 1px gray;
+}
+main .leftReview{
+    position: relative;
+    top: -178px;
+    left: 322px;
+}
+main .rightReview{
+    position: relative;
+    top: -178px;
+    left: 630px;
 }
 .ReviewText{
     /*position: static;*/
@@ -234,6 +251,10 @@ main .divReview{
     height: 111px; 
     padding-top: 30px;
     margin-left: 30px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
   
 }
 main .divReviewLogin{
