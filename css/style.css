@@ -279,3 +279,73 @@ main .divReviewLogin p{
     margin-left: 15px;
 }
 
+main #divDiation{
+    width: 1110px;
+    height: 611px;
+    margin-left: 165px;
+    font-family: Poppins;
+}
+main #divDiationCont{
+    width: 1110px;
+    height: 461px;
+}
+main #divDiationH2{
+    width: 607px;
+    height: 92px;
+}
+main #divDiationH2 h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+main #divDiationContForBlock{
+    display: flex;
+    width: 1110px;
+    height: 309px;
+}
+main #divDiationContForBlock .diationBlock{
+    width: 255px;
+    height: 309px;
+    margin-top: 60px;
+}
+main #divDiationContForBlock .diationBlockH3{
+    width: 183px;
+  /*  height: 68px;*/
+    margin-left: 30px;
+
+}
+main #divDiationContForBlock .diationBlockH3 h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #4D533C;
+}
+main #divDiationContForBlock .diationBlockP{
+    width: 194px;
+    height: 104px;
+    margin-top: 20px;
+    margin-left: 30px;
+  
+}
+main #divDiationContForBlock .diationBlockP p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #21384299;
+
+}
+main #divDiationContForBlock .diationBlockLink{
+   /* width: 102px;*/
+    height: 24px;
+    margin-top: 30px;
+}
+main #divDiationContForBlock a{
+
+    margin-left: 30px;
+}
+main #divDiationContForBlock .diationBlock .colorGray a {
+    color: #D4D6D4;
+}
+/*main #divDiationContForBlock .diationBlock h3{
+    margin-left:
+}*/
