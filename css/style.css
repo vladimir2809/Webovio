@@ -18,6 +18,9 @@
     font-style: italic;
 }
 body {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
 }
 a{
     color: yellow;
@@ -150,7 +153,7 @@ nav{
 }
 main {
     width: 1440px;
-    height: 2353px;
+   /* height: 2353px;*/
 }
 main #haveSome{
     display: flex;
@@ -346,6 +349,72 @@ main #divDiationContForBlock a{
 main #divDiationContForBlock .diationBlock .colorGray a {
     color: #D4D6D4;
 }
-/*main #divDiationContForBlock .diationBlock h3{
-    margin-left:
-}*/
+
+#divAboveFooter{
+    position: static;
+    /*top: 100px;*/
+    width: 1275px;
+    height: 362px;
+    background-color: #FAFAFA;
+    z-index: 100;
+/*    box-shadow: 80px -1px 120px 10px gray;*/
+}
+#divAboveFooter>div{
+    width: 822px;
+    height: 221px;
+    margin-left: 164px;
+    margin-top: 70px;
+}
+#divAboveFooter>div>h1{
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+}
+footer{
+    position: relative;
+    top: -250px;
+    width: 1440px;
+    height: 920px;
+    background: #4F553D;
+  /*  z-index:1;*/
+}
+footer #divFooter{
+   width: 1111px;
+   height: 580px;
+   margin-top: 310px;
+   margin-left: 185px;
+}
+footer #divContact{
+    width: 452px;
+    height: 88px;
+ 
+}
+footer table{
+    color: white;
+}
+footer #divContact th{
+    text-align: left;
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px; 
+}
+footer #divContact td{
+    text-align: left;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+}
+footer #divContact td:first-child{
+    padding-right: 128px;
+}
+footer #divListLink{
+    display: flex;
+    margin-top: 113px;
+}
+footer #divListLink .listLink{
+    width:167px;
+    height: 259px;
+}
