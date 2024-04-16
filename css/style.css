@@ -373,10 +373,13 @@ main #divDiationContForBlock .diationBlock .colorGray a {
 }
 footer{
     position: relative;
-    top: -250px;
+    top: -200px;
     width: 1440px;
     height: 920px;
+    font-family: Poppins;
     background: #4F553D;
+  /*  background: #444A34;*/
+
   /*  z-index:1;*/
 }
 footer #divFooter{
@@ -386,7 +389,7 @@ footer #divFooter{
    margin-left: 185px;
 }
 footer #divContact{
-    width: 452px;
+    width: 652px;
     height: 88px;
  
 }
@@ -394,6 +397,7 @@ footer table{
     color: white;
 }
 footer #divContact th{
+    width: 250px;
     text-align: left;
     padding-bottom: 8px;
     font-size: 16px;
@@ -417,4 +421,59 @@ footer #divListLink{
 footer #divListLink .listLink{
     width:167px;
     height: 259px;
+}
+footer #divListLink .listLink:not(.listLink:first-child){
+    margin-left: 70px;
+}
+footer #divListLink .listLink h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 38px;
+    color: white;
+}
+footer #divListLink .listLink a{
+    color: #B6C197;
+    text-decoration: none;
+}
+footer #divListLink .listLinkInfo{
+    width: 322px;
+    margin-left: 124px;
+}
+footer #divListLink .listLinkInfo h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 38px;
+    color: white;
+}
+footer #divListLink .listLinkInfo a{
+    color: #B6C197;
+    text-decoration: none;
+}
+footer #divListLink .listLinkInfo h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    color: white;
+}
+footer #divListLink .listLinkInfo img{
+    width: 33px;
+    height: 33px;
+}
+footer #lastLine{
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 60px;
+    margin-left: 165px;
+}
+footer #lastLine img{
+    width: 200px;
+    height: 35px;
+    margin-top: -30px;
+}
+footer #lastLine p{
+    text-align: right;
+    margin-top: -15px;
+    color: #B5C096;
+
 }
