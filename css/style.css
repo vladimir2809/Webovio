@@ -18,19 +18,24 @@
     font-style: italic;
 }
 body {
-    width: 1440px;
+    max-width: 1440px;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
+
 a{
     color: yellow;
 }
 nav{
-    position: absolute;
+    position: relative;
     left: 164px;
-    top: 23px;
+    top: -800px;
     width: 1111px;
     height: 43px;
+}
+#divHeadImg{
+    position: relative;
 }
 #navOpen{
     float: right;
@@ -287,6 +292,9 @@ main #divDiation{
     height: 611px;
     margin-left: 165px;
     font-family: Poppins;
+}
+.divDiationPage2{
+    margin-top: 150px;
 }
 main #divDiationCont{
     width: 1110px;
